@@ -1,0 +1,93 @@
+
+* {
+    background-color: beige;
+}
+body {
+    padding: 70px 40px 20px 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    background-color: transparent;
+    text-align: center;
+    padding: 0.75rem 1.25rem;
+    letter-spacing: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+#question {
+   
+    margin-top: 20px;
+    text-align: center;
+    background-color: transparent;
+    align-items: center;
+    position: absolute;
+    padding: 10px;
+    letter-spacing: 1px;
+    /*font-size: 1em;*/
+    font-size: large;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.1em solid black;
+    box-sizing: border-box;
+}
+
+/* Estilos para el texto */
+.text {
+    background-color: transparent;
+    text-align: justify;
+    font-size: smaller;
+    margin-top: 70px;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+img:hover {
+    filter: sepia(100%);
+}
+
+footer {
+
+    color: #fff;
+    text-align: left;
+    font-family: monospace;
+}
+
+.footer-contenido {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+footer, footer * {
+    background-color: transparent; 
+}
+
+.footer-contenido h3 {
+    color: #741111;
+    margin-bottom: 5px;
+}
+
+.footer-contenido ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: small;
+}
+
+.footer-contenido ul li {
+    margin: 5px 0;
+}
+
+.footer-contenido ul li a {
+    color: #de6464;
+    text-decoration: none;
+}
+
+.footer-contenido ul li a:hover {
+    text-decoration: underline;
+}
